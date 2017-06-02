@@ -1,1 +1,9 @@
-/* Empty. Add your own CSS if you like */
+.bar{
+    background-color: #f88400 !important;
+}
+
+.bar.bar-stable .title{
+    color: #fff !important;
+    margin: 0 auto;
+    text-align: center;
+}
