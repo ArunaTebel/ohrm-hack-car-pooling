@@ -1,0 +1,25 @@
+<ion-view view-title="Profile">
+    <ion-content>
+        <ion-list>
+            <form ng-submit="formSubmit()" class="form">
+                <div class="col-md-4">
+                    <div class="form-group">
+                        <input type="text" class="form-control" ng-model="obj.username" placeholder="username"
+                               required=""/>
+                    </div>
+
+                    <div class="form-group">
+                        <input type="password" class="form-control" ng-model="obj.password" placeholder="password"
+                               required=""/>
+                    </div>
+
+                    <div class="form-group">
+                        <button type="submit" class="btn btn-success">Login</button>
+                        <span class="text-danger">{{ error }}</span>
+                    </div>
+
+                </div>
+            </form>
+        </ion-list>
+    </ion-content>
+</ion-view>

@@ -1,7 +1,7 @@
 <ion-view view-title="Profile">
   <ion-content>
     <ion-list>
-    <ion-toggle  ng-model="settings.enableFriends">
+    <ion-toggle  ng-model="settings.enableFriends" ng-change="toggleChange()">
         I am a Driver
     </ion-toggle>
     </ion-list>
